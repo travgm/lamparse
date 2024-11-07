@@ -1,0 +1,8 @@
+-- Simple identity function (λx. x) with type annotation. Expected type: A -> A
+λx:A. x
+
+-- Constant function that ignores its argument. Expected type: Int -> Bool -> Int
+λx:Int. λy:Bool. x
+
+-- Function that takes an integer and returns a boolean. Expected type: Int -> Bool
+λx:Int. isZero x
